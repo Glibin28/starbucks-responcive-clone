@@ -1,0 +1,165 @@
+@font-face{
+    font-family: 'SoDoSans-Black';
+    src: url('Fonts/SoDoSans-Black.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Black.woff') format('woff'),
+         url('Fonts/SoDoSans-Black.woff2') format('woof2');
+}
+
+@font-face {
+    font-family: 'SoDoSans-Bold';
+    src: url('Fonts/SoDoSans-Bold.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Bold.woff') format('woff'),
+         url('Fonts/SoDoSans-Bold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-SemiBold';
+    src: url('Fonts/SoDoSans-SemiBold.ttf') format('ttf'),
+         url('Fonts/SoDoSans-SemiBold.woff') format('woff'),
+         url('Fonts/SoDoSans-SemiBold.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-Light';
+    src: url('Fonts/SoDoSans-Light.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Light.woff') format('woff'),
+         url('Fonts/SoDoSans-Light.woff2') format('woff2')
+}
+
+@font-face {
+    font-family: 'SoDoSans-Thin';
+    src: url('Fonts/SoDoSans-Thin.ttf') format('ttf'),
+         url('Fonts/SoDoSans-Thin.woff') format('woff'),
+         url('Fonts/SoDoSans-Thin.woff2') format('woff2')
+}
+
+#logo
+{
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 45px;
+}
+#map
+{
+    width: 15px;
+}
+
+.join-btn{
+    padding:  7px 18px;
+    font-family: 'SoDoSans-Bold',Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 50px;
+    border: 0;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.join-btn:hover{
+    transition-duration: 0.3s;
+    background-color: #4C4C4C;
+}
+
+.sign-btn{
+    padding:  6px 15px;
+    font-family: 'SoDoSans-SemiBold',Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sign-btn:hover{
+    background: rgba(128, 127, 127, 0.5);
+}
+
+.for_images img
+{
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    border: none;
+    height: 1px;               
+    background-color: #4C4C4C;
+    opacity: 0.2;
+}
+
+.for_text
+{
+    background-color: #06ce8d;
+}
+.for_text p
+{
+    font-size: 45px;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.for_text .p1-sub
+{
+    font-size: 23px;
+}
+.btn_1
+{
+    background-color: rgb(0, 98,65);
+    
+}
+.t1{
+    background-color: #0b7a55;
+}
+.t2
+{
+    background-color: rgb(158, 34, 64)
+}
+.t3
+{
+    background-color: rgb(255, 255, 255);
+    
+}
+.t4
+{
+    background-color: #00754a;
+}
+.t6
+{
+    background-color: #1e3932;
+}
+.t7
+{
+    background-color: rgb(217, 232, 154);
+}
+.footer_sub
+{
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+}
+.f_img img
+{
+    width: 30px;
+    height: 30px;
+}
+.nav-item .nav-link:hover {
+    background-color: transparent;
+    -webkit-text-fill-color: rgb(4, 73, 4);
+  }
+.nav-btn .nav-link:hover{
+    background-color: transparent;
+    -webkit-text-fill-color: rgb(8, 147, 38);
+  }
+  .navbar {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Make buttons stay the same size */
+  .sign-btn, .join-btn {
+    min-width: 100px;
+    height: 40px; /* Adjust height as needed */
+  }
+
+  /* Optional: Adjust the padding for nav links to make them wider */
+  .navbar-nav .nav-link {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
